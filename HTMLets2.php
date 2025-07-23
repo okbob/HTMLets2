@@ -30,7 +30,7 @@ class HTMLets2Hooks {
 
 		$f = "$wgHTMLets2Directory/$name";
 
-		if ( !preg_match('!^\w+://!', $wgHTMLetsDirectory ) && !file_exists( $f ) ) {
+		if ( !preg_match('!^\w+://!', $wgHTMLets2Directory ) && !file_exists( $f ) ) {
 			$output = Html::rawElement(
 				'div',
 				array( 'class' => 'error' ),
