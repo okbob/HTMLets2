@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pavel Stěhule"
+		]
+	},
+	"htmlets2-desc": "Lets you inline HTML snippets from files in a given directory."
+}

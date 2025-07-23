@@ -1,0 +1,26 @@
+{
+	"name": "HTMLets2",
+	"version": "0.1",
+	"author": ["Daniel Kinzler", "Pavel Stehule"],
+	"url": "https://www.mediawiki.org/wiki/Extension:HTMLets2",
+	"description": "Lets you inline HTML snippets from files in a given directory."
+	"descriptionmsg": "htmlets2-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "tag",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"HTMLets2": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"HTMLets2Hooks": "HTMLets2.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "HTMLets2Hooks::onParserFirstCallInit"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}
