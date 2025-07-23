@@ -2,7 +2,7 @@
 	"name": "HTMLets2",
 	"version": "0.1",
 	"author": ["Daniel Kinzler", "Pavel Stehule"],
-	"url": "https://www.mediawiki.org/wiki/Extension:HTMLets2",
+	"url": "https://github.com/okbob/HTMLets2.git",
 	"description": "Lets you inline HTML snippets from files in a given directory.",
 	"descriptionmsg": "htmlets2-desc",
 	"license-name": "GPL-3.0-or-later",
